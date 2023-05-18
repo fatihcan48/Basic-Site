@@ -1,0 +1,303 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#sayfa{
+    width: 900px;
+    min-height: 650px;
+    border-style : none;
+    border-width: 1px;
+    margin: auto;
+    
+}
+
+#banner{
+    width: 898px;
+    height: 100px;
+    border-style: none;
+    border-width: 1px;
+    background-image: url(Images/bayrak2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#anabaslik{
+    width: 350px;
+    height: 60px;
+    font-family:Arial, Helvetica, sans-serif;
+    border-style: none;
+    font-style:italic;
+    font-size: 14px;
+    float: right;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    overflow: visible;
+    color: azure;
+    box-shadow: black 0px 2px 3px 3px;
+}
+
+#anamenu{
+    width: 894px;
+    height: 50px;
+    border-style: ridge;
+    border-width: 2px;
+    background-color: antiquewhite;
+    
+}
+#anamenu ul{
+    list-style-type:none;
+}
+#anamenu ul li{
+    width: 120px;
+    float: left;
+    padding: 5px;
+    margin: 8px;
+    text-align: center;
+    position: relative;
+    bottom: -2px;
+    
+}
+#anamenu #anamenuul li a{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    color:rgb(15, 92, 235);
+}
+#anamenu #anamenuul li a:hover{
+    font-size: 16px;
+    color:red
+}
+#anamenu #anamenuul li a:active{
+    color: red;
+}
+#anamenu #logoul li{
+    float: right;
+    border-style: none;
+    border-width: 1px;
+    width: 30px;
+    height: 30px;
+    margin: 1px;
+    text-align: center;
+    position: relative;
+    right: 10px;
+    top: 2px;
+}
+#anamenu #logoul li a img{
+    width: 30px;
+    border-style: none;
+    border-width: 1px;
+}
+
+#icerik{
+    width: 640px;
+    min-height: 400px;
+    border-style: ridge;
+    border-width: 2px;
+    background-color: antiquewhite;
+    float: left;
+}
+.resim{
+    float: left;
+    max-width: 160px;
+    margin: 10px ;
+    border-style: solid;
+    border-width: 1px;
+}
+#icerik #girisbaslik{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    font-style: oblique;
+    text-align: center; 
+    border-style: none;
+    border-width: 1px;
+}
+#icerik p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-indent: 20px;
+    text-align: justify;
+    margin: 5px;
+    line-height: 17px;
+}
+
+/* Özgeçmiş.html içerik kısmı*/
+#icerik #cvbasliklar{
+    margin: 10px;
+    text-indent: 10px;
+}
+#icerik table{
+    margin: 10px;
+}
+#icerik table td pre{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-indent: 17px;
+}
+#icerik table td{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 5px;
+}
+#icerik #isdeneyimi{
+    padding: 10px;
+}
+#icerik #isdeneyimi p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 8px;
+    text-indent: 20px;
+}
+#icerik #sertifika li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin: 35px;
+    font-weight: bold;
+    list-style-type: none;
+}
+
+/* İletişim.html içerik kısmı*/
+#icerik #iletisim{
+    text-align: center;
+    margin: 20px;
+}
+#iletisim h2,h3{
+    padding: 10px;
+    text-align: center;
+}
+#iletisim h3{
+    border-style: solid;
+    border-width: 1px;
+    width: 150px;
+    border-radius: 5px;
+    background-color: rgb(112, 211, 211);
+    position: relative;
+    left: 340px;
+}
+#iletisim p,address{
+    border-style: ridge;
+    border-color:rgb(112, 211, 211); ;
+    border-width: 2px;
+    padding: 15px;
+    width:500px ;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    text-indent: 0px;
+    position: relative;
+    left: 160px;
+    border-radius: 5px;
+}
+
+#gorusler{
+    float: left;
+
+}
+#goruslertb{
+    position: relative;
+    padding: 10px;
+    left: 10px;
+}
+#goruslertb th,td,pre{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: left;
+}
+#goruslertb textarea{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    overflow: auto;
+
+}
+.formbtn{
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+    font-weight: bold;
+    border-style: groove;
+    border-width: 1px;
+    border-radius: 4px;
+}
+.formbtn:hover{
+    color: white;
+    background-color: rgb(165, 190, 236);
+    
+}
+.frminput{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 18px;
+    font-size: 14px;
+}
+#iframe{
+    position:relative;
+    border-style:groove;
+    border-width: 2px;
+    margin: 5px;
+    min-width: 450px;
+    height: 400px;
+}
+
+#yanmenu{
+    width: 250px;
+    height: 400px;
+    border-style: ridge;
+    border-width: 2px;
+    background-color: antiquewhite;
+    float: left;
+    overflow: auto;
+}
+#yanmenu #girisbaslik{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    padding: 15px;
+    font-style: oblique;
+    text-align: center; 
+    border-style: none;
+    border-width: 1px;
+}
+#yanmenu p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-indent: 15px;
+    text-align: justify;
+    margin: 5px;
+    line-height: 16px;
+}
+#yanmenu hr{
+    border-style:ridge;
+    border-width: 3px;
+    border-color:coral;
+}
+
+#altmenu{
+    width: 894px;
+    height: 90px;
+    border-style: ridge;
+    border-width: 2px;
+    background-color: antiquewhite;
+    float: left;
+    text-align: center;
+    position:relative;
+}
+#altmenu p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-size: 14px;
+    position: relative;
+    top: 35px;
+}
+#altmenu a{
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    color:rgb(15, 92, 235);
+    padding: 10px;
+    position: relative;
+    top: 8px;
+}
+#altmenu a:hover{
+    font-size: 13px;
+    color:red
+}
+
